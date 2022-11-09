@@ -6,9 +6,9 @@ export const Navbar = () => {
     <div className='nav__bar'>
         <ul>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/test">Test</NavLink>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/test">About</NavLink>
+            <NavLink to="/">Contact</NavLink>
+            <NavLink to="/">Form</NavLink>
         </ul>
     </div>
   )

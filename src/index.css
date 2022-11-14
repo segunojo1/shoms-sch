@@ -30,5 +30,6 @@ body{
   height: 6rem;
 }
 .nav__bar{
-  background-color: red;
+  z-index: 88;
+  background-color: transparent;
 }

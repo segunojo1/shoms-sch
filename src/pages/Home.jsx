@@ -10,6 +10,7 @@ export const Home = () => {
     <Navbar/>
     <Img />
     <Spaces />
+    <Teachers />
     </>
   )
 }

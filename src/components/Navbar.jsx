@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 export const Navbar = () => {
   return (
     <Parallax strength={400}>
-    <div className='nav__bar fixed w-[100%]'>
+    <div className='nav__bar fixed w-[100%] tracking-[5px]'>
         <ul className='flex w-[80%] justify-between items-center h-[6rem] mx-auto'>
           <img src="shomslogo.jpg" alt="" className='rounded-lg'/>
             <NavLink to="/" className="nav__item hover:text-black">OUR SCHOOL</NavLink>

@@ -3,6 +3,7 @@ import Img from '../components/Img'
 import Teachers from '../components/Teachers'
 import { Navbar } from '../components/Navbar'
 import Spaces from '../components/Spaces'
+import Testimonials from '../components/Testimonials'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
     <Img />
     <Spaces />
     <Teachers />
+    <Testimonials />
     </>
   )
 }

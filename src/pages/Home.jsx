@@ -4,6 +4,7 @@ import Teachers from '../components/Teachers'
 import { Navbar } from '../components/Navbar'
 import Spaces from '../components/Spaces'
 import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
     <Spaces />
     <Teachers />
     <Testimonials />
+    <Footer />
     </>
   )
 }

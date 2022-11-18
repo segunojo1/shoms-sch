@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import Teacher from './Teacher';
 
 const Teachers = () => (
-    <Parallax className=''  bgImage="Banner-Clouds.png" bgImageAlt="the cat" strength={800}>
+    <Parallax className=''  bgImage="Banner-Butterflies2.png" bgImageAlt="the cat" strength={400}>
         <div className='w-[80%] mx-auto'>
             <h1 className='font-bold text-4xl text-center mt-[7rem] mb-[3rem]'>Our Incredible Teachers</h1>
             <p className='mb-[3rem] text-center'>Our teachers are carefully selected for their training and experience, as well 

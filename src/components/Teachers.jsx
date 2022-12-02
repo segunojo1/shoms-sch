@@ -10,7 +10,7 @@ const Teachers = () => (
                 as for their commitment to working collaboratively with parents to enrich 
                 the early-childhood years.</p>
 
-                <div className='flex justify-between'>
+                <div className='flex justify-center gap-[2rem] flex-wrap items-center'>
                     <Teacher imgSrc="johnson.jpeg"
                             title="MR. JOHNSON A. ODUNIYI" 
                             position="VP Academics"

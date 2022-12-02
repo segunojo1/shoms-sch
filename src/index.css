@@ -36,3 +36,34 @@ body{
   z-index: 88;
   background-color: transparent;
 }
+
+
+.nav__menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+}
+.show{
+  right: 0;
+}
+@media screen and (max-width:1022px) {
+  .nav__menu{
+    height: 100vh;
+    position: fixed;
+    justify-content: unset;
+    flex-direction: column;
+    top: 6rem;
+    background-color: rgb(105, 112, 114);
+    right: -120%;
+    padding: 3rem;
+    transition: .5s;
+  }
+  .show{
+    right: 0;
+  }
+  .nav__item{
+    margin-bottom: 6rem;
+  }
+}

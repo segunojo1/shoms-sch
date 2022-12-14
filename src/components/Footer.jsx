@@ -15,11 +15,11 @@ const Footer = () => {
                 <p className='text-white'>2022 Metabnb</p>
             </div>
             <FooterComp 
-                head="Community"
-                one="NFT"
-                two="Tokens"
-                three="Landlords"
-                four="Discord"
+                head="School"
+                one="Students"
+                two="Classes"
+                three="Staff"
+                four="Kids"
             />
             <FooterComp 
                 head="Places"

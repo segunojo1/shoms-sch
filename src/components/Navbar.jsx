@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Parallax } from 'react-parallax'
 import { NavLink } from 'react-router-dom'
+import {RxHamburgerMenu} from 'react-icons/rx'
 
 export const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -20,9 +21,9 @@ export const Navbar = () => {
             <NavLink to="/" className="nav__item hover:text-black" onClick={showNav}>REGISTRATION</NavLink>
             <NavLink to="/" className="btn__enroll nav__item hover:text-black" onClick={showNav}>ENROLL NOW</NavLink>
           </div>
-          <div className='block lg:hidden w-[40px] h-[3px] bg-black cursor-pointer' onClick={showNav}>
-
-          </div>
+          {/* <div className='block lg:hidden w-[40px] h-[3px] bg-black cursor-pointer' onClick={showNav}> */}
+          <RxHamburgerMenu className='block lg:hidden cursor-pointer' onClick={showNav}/>
+          {/* </div> */}
         </ul>
     </div>
     </Parallax>

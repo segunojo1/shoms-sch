@@ -26,13 +26,11 @@ const Footer = () => {
                 two="Staff"
                 four="Learn More"
             />
-            {/* <FooterComp 
+            <FooterComp 
                 head="About Us"
-                one="Road Map"
-                two="Creators"
-                three="Career"
-                four="Contact Us"
-            /> */}
+                one="Staff"
+                two="Classes"
+            />
         </div>
     </div>
   )
